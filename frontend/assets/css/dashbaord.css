@@ -1,0 +1,534 @@
+html, body {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+}
+main {
+  flex: 1 0 auto;
+}
+hr_
+{
+    border: 3px solid #000;
+    /* height: 20px solid #000; */
+}
+horizontalLine { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+} 
+.mdl-mini-footer {
+  padding: 32px;
+}
+li i.material-icons {
+    margin-right: 8px;
+}
+.mdl-layout--fixed-drawer>.mdl-mini-footer {
+  margin-left: 240px;
+}
+@media screen and (max-width: 1024px) {
+  .mdl-layout--fixed-drawer>.mdl-mini-footer {
+    margin-left: 0;
+  }
+}
+.user-avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 32px;
+  margin-bottom: 8px;
+}
+.mdl-textfield {
+  padding-top: 27px;
+}
+.mdl-layout__header .mdl-layout__drawer-button {
+  color: rgb(255, 255, 255);
+}
+.mdl-layout__drawer .avatar {
+  margin-bottom: 16px;
+}
+.mdl-card__supporting-text > div {
+  overflow-x: auto;
+}
+#dashboard-drawer {
+  border: none;
+  position: fixed;
+}
+/* iOS Safari specific workaround */
+#dashboard-drawer .mdl-menu__container {
+  z-index: -1;
+}
+#dashboard-drawer nav {
+  z-index: -2;
+}
+/* END iOS Safari specific workaround */
+.mdl-menu .mdl-menu__item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#dashboard-drawer header {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 16px;
+  height: 151px;
+}
+.user-avatar-dropdown {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+#dashboard-drawer nav {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+#dashboard-drawer nav .mdl-navigation__link {
+  display: -webkit-box !important;
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: rgba(255, 255, 255, 0.56);
+  font-weight: 500;
+}
+#dashboard-drawer nav .mdl-navigation__link:hover,
+#dashboard-drawer nav .mdl-navigation__link.active {
+  background-color: rgb(252, 252, 252);
+  color: rgb(100, 100, 100);
+}
+#dashboard-drawer nav .mdl-navigation__link .material-icons {
+  font-size: 24px;
+  margin-right: 32px;
+}
+#dashboard-drawer nav .mdl-navigation__link:hover .material-icons,
+#dashboard-drawer nav .mdl-navigation__link.active .material-icons {
+  color: rgb(87, 87, 88)!important;
+}
+
+.mdl-grid .title {
+  margin: 16px auto 6px;
+  position: relative;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.title .mdl-switch {
+    position: absolute;
+    top: 8px;
+    right: 24px;
+    width: auto;
+}
+
+.title label.mdl-switch {
+    position: absolute;
+    top: 36px;
+    right: 24px;
+    width: auto;
+}
+
+.title label.mdl-switch * {
+    vertical-align: top;
+}
+
+.course-info-list .mdl-list__item .mdl-list__item-primary-content .material-icons {
+  font-size: 28px;
+}
+
+.course-info-list .mdl-list__item .mdl-list__item-primary-content .item-name {
+  display: inline-block;
+  width: 150px;
+  font-weight: 600;
+}
+
+.mdl-list__item .mdl-list__item-primary-content > * {
+    vertical-align: middle;
+    line-height: 24px;
+}
+
+.mdl-list__item .mdl-list__item-primary-content .item-value .mdl-textfield {
+  margin-top: -4px;
+}
+
+.mdl-list__item .mdl-list__item-primary-content .item-value .mdl-textfield > * {
+  font-size: 14px;
+}
+
+.course-info-list .mdl-list__item .mdl-list__item-secondary-action .mdl-button.confirm-btn {
+  display: none;
+}
+
+.course-info-list .mdl-list__item.editing .mdl-list__item-secondary-action .mdl-button {
+  display: none;
+}
+
+.course-info-list .mdl-list__item.editing .mdl-list__item-secondary-action .mdl-button.confirm-btn {
+  display: block;
+}
+
+.mdl-card__actions.mdl-card--border {
+  display: flex;
+}
+
+.mdl-card__supporting-text form, .mdl-card__supporting-text form .mdl-textfield {
+  width: 100%;
+}
+
+.mdl-card__supporting-text .mdl-textfield {
+  line-height: 32px;
+}
+
+.mdl-textfield__input {
+  font-family: Roboto;
+}
+
+table.token-list {
+    height: 200px;
+    width: 100%;
+    position: relative;
+    display: block;
+    overflow: auto;
+    border: solid 2px #ccc;
+    text-align: center;
+    border-radius: 2px;
+}
+
+canvas.phrase-canv { background:#fff; color: black; font-size: x-large; align-items: center; align-content: center; align-self: center;} */
+
+table.token-list thead {
+    padding: 0 1px;
+    position: fixed;
+    background-color: #eee;
+    height: 32px;
+    line-height: 32px;
+}
+
+table.token-list tbody {
+    display: block;
+    margin-top: 32px;
+    font-size: 14px;
+}
+
+table.token-list tbody tr:nth-child(2n) {
+    background-color: #f5f5f5;
+}
+
+table.token-list th {
+  cursor: pointer;
+}
+
+table.token-list th, table.token-list td {
+    width: 154px;
+}
+
+th.sorted_down::after {
+    content: " \25bc";
+}
+th.sorted_up::after {
+    content: " \25b2";
+}
+
+.add-token-field {
+    line-height: 32px;
+    height: 32px;
+    margin: 8px 0;
+    display: flex;
+}
+
+.add-token-field {
+    line-height: 32px;
+    height: 32px;
+    margin: 8px 0;
+    display: flex;
+}
+
+.add-token-field .mdl-textfield {
+    width: 100px;
+    margin: -26px 8px -18px;
+}
+
+.add-token-field .mdl-textfield .mdl-textfield__error {
+  margin-top: -6px;
+}
+
+.lecture-course-dropdown {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    width: calc(100% - 400px);
+    top: 25px;
+}
+
+
+.timezone-dropdown {
+  display: inline-block;
+  position: relative;
+  right: 0;
+  width: calc(100% - 400px);
+  top: 25px;
+}
+
+#lecture-course-name {
+    font-size: 24px;
+    vertical-align: middle;
+    display: inline-block;
+    width: calc(100% - 42px);
+    overflow: hidden;
+    height: 48px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: right;
+}
+
+.mdl-card__supporting-text {
+    width: calc(100% - 30px);
+    position: relative;
+}
+
+.mdl-card__supporting-text.lecture-info {
+    display: flex;
+    border-bottom: solid 1px #eee;
+}
+
+.mdl-card__supporting-text.lecture-info h4 {
+    display: inline-block;
+    margin: 8px 0;
+    color: #444;
+}
+
+.mdl-card__supporting-text.lecture-info h4 i {
+    font-style: normal;
+}
+
+.mdl-card__supporting-text.lecture-info button {
+    margin-left: 16px;
+    margin-top: 8px;
+}
+
+.mdl-card__supporting-text #lecture-list, .mdl-card__supporting-text #lecture-edit {
+    height: 530px;
+    float: left;
+    position: relative;
+}
+
+#lecture-list {
+    padding-top: 20px;
+    border-right: solid 1px #ddd;
+}
+
+#lecture-list button {
+    width: 100%;
+    height: 42px;
+    border-radius: 0;
+    text-align: left;
+    text-transform: none;
+    color: #666;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    transition: background-color ease-in-out .2s;
+}
+
+#lecture-list button.on {
+    background-color: #ddd;
+}
+
+#lecture-list button.edited {
+    background-color: #FCE4EC;
+    color: #AD1457;
+}
+
+#lecture-list button.edited.on {
+    background-color: #F8BBD0;
+    color: #880E4F;
+}
+
+#lecture-list-title {
+    position: absolute;
+    top: 8px;
+    padding: 6px;
+    width: calc(33.33% - 31px);
+    font-size: 18px;
+    height: 24px;
+    background-color: #fff;
+    z-index: 100;
+}
+#lecture-list-title .num, #lecture-list-title .date, #lecture-list-title .lecture,
+#lecture-list .num, #lecture-list .date, #lecture-list .lecture {
+    position: relative;
+    left: 0;
+}
+#lecture-list-title .num, #lecture-list .num {
+  display: inline-block;
+  width: 16px;
+}
+#lecture-list-title .num {
+    left: 14px;
+}
+#lecture-list-title .date {
+    left: 28px;
+}
+#lecture-list .date {
+    left: 10px;
+}
+#lecture-list-title .lecture {
+    left: 90px;
+}
+#lecture-list .lecture {
+    left: 40px;
+}
+
+#add-lecture-btn {
+    position: absolute;
+    left: calc(31% - 46px);
+    bottom: 24px;
+    z-index: 1000;
+    transition-delay: .5s;
+    transition: ease-in-out .2s;
+}
+
+#add-lecture-btn.mdl-button--fab[disabled] {
+  pointer-events: none;
+  background-color: rgba(0,0,0,.12)!important;
+  opacity: 0;
+}
+
+#lecture-edit {
+  overflow: visible;
+}
+
+#lecture-edit .mdl-textfield {
+    width: calc(50% - 8px);
+}
+
+#lecture-edit .mdl-textfield:nth-child(2) {
+    margin-left: 16px;
+}
+
+#lecture-edit .mdl-switch {
+    text-indent: 16px;
+    font-size: 18px;
+}
+
+#lecture-questions {
+    margin: 8px;
+}
+
+#lecture-questions .mdl-checkbox {
+  margin: 4px 6px;
+  width: 200px;
+}
+
+#lecture-repeats {
+  margin: 8px;
+}
+
+#lecture-repeats .mdl-checkbox {
+margin: 4px 6px;
+width: 50px;
+height: 15px;
+}
+
+#lecture-repeats .mdl-timetext {
+  margin: 4px 6px;
+  width: 100px;
+  height: 20px;
+  }
+  
+#save-lecture-btn {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#delete-lecture-btn {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+#undo-change-btn {
+    position: absolute;
+    right: 72px;
+    bottom: 0;
+}
+
+#course-default-questions {
+    width: 200px;
+    margin: 16px auto;
+}
+
+#course-default-questions .mdl-checkbox__tick-outline {
+  width: 25px;
+  height: 13px;
+}
+
+#csv-upload {
+  display: none;
+}
+
+.quality_ref {
+  display: none;
+}
+
+#reflection_list.ref_all .quality_ref {
+  display: block;
+}
+
+#reflection_list.ref_1 .quality_ref_1 {
+  display: block;
+}
+
+#reflection_list.ref_2 .quality_ref_2 {
+  display: block;
+}
+
+#reflection_list.ref_3 .quality_ref_3 {
+  display: block;
+}
+
+#reflection_list.ref_4 .quality_ref_4 {
+  display: block;
+}
+
+#reflection_list.ref_5 .quality_ref_5 {
+  display: block;
+}

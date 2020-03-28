@@ -1,0 +1,91 @@
+{
+  "Parse": {
+    "development": {
+      "App_Id": "c4Fz5plueUVfkqQ19vY9UI5xuzfzzflwWa2QiDjn",
+      "Key": "bhZUOWWYjiCg4Vj9adrUNDjkQ45vqE3doilUwLD0",
+      "Master_Key": "sbREo1m0ZwjuNEpuZzlwN75d9NvDjeOeOIUolvnR"
+    },
+    "production": {
+      "App_Id": "WtfAbIvOLlBvLGguSG56tMBjBlTkkn3rtl3oYpF8",
+      "Js_Key": "5LjPS5x1dYoC4ix1pyab0hzUR8r9LAzaIwkBXnti"
+    },
+    "production_azure": {
+      "App_Id": "YMGbDwY7f98JJQax7ErPyQHrjdGHXLKjzGcPCpUC",
+      "Master_Key": "5kwK971smxQ1FqDZy5djicIpZBTDimDET4DIwEt2",
+      "Key": "pEyDlfI7xPIg4qSrDwmvyldKoy1zlMzFLwZTiXAq"
+    },
+    "production_real": {
+      "App_Id": "YMGbDwY7f98JJQax7ErPyQHrjdGHXLKjzGcPCpUC",
+      "Key": "V7zp0hkf4cVP3DskRrtbSNxWrVHW7vHxyxlCjDzr",
+      "Master_Key": "cp1GtyipXhmQfE8kU3R9OkSPDF9qpkrOpRt6SE6L"
+    },
+    "back4app": {
+      "App_Id": "WtfAbIvOLlBvLGguSG56tMBjBlTkkn3rtl3oYpF8",
+      "Js_Key": "5LjPS5x1dYoC4ix1pyab0hzUR8r9LAzaIwkBXnti"
+    }
+  },
+  "Server": {
+    "development": {
+      "Host": "localhost",
+      "Port": "3001"
+    },
+    "production_azure": {
+      "Host": "localhost",
+      "Port": "3002"
+    },
+    "production": {
+      "Host": "52.168.138.62",
+      "Port": "3000"
+    },
+    "back4app": {
+      "Host": "localhost",
+      "Port": "3002"
+    }
+  },
+  "Keys": [
+    "RM1aPADV6sM1BNIa",
+    "h5Ymwf1lJTre1r2X",
+    "cN0WyxcGWY9i9JU1",
+    "6tTIzR2joOxGuiOT",
+    "KtWAlV3q5lhWEpyo",
+    "8DHm7pdh0684TTP0",
+    "wT9u1Nzb1Xno05OQ",
+    "k3LR3RKijdsbWk19",
+    "RBBO2N8i2i0icpro",
+    "mdM8l7drrVek3vVn",
+    "mwAvKgwbqywT5z1f",
+    "OB9IWrgyp9QWWaOl",
+    "WQyzo8lfOtJKxBFU",
+    "GuGAuiWR7lsB0UhT",
+    "tSRfBRFagzIbGJNv",
+    "x5k9irAhSycnWqHL",
+    "et0MepOcF9MVs9Db",
+    "yZ5obWf6WyaqRYn8",
+    "pBBTPfo5jLJEgbdv",
+    "1Ulow8HoOruNFM05",
+    "5TksNm0vMjXCcpsS",
+    "TGPJJ2PLdo9dxMhe",
+    "2uFMmmawJANIUBTa",
+    "KDghBvR6oxntEmEe",
+    "tTbDMplC6zJ4HIGS",
+    "F5wEMb8KNXPLPuPL",
+    "6pwMorgxbBGt86MH",
+    "CblSQL5tunMSvtFy",
+    "p3mG8PfHKzjXQRla",
+    "HOaFJe13r0ooKEfQ",
+    "Dqj3k9lC5BTZxrCy",
+    "DCx1X6Q1dyE3EVQD"
+  ],
+  "Salt": {
+    "Invitation": "6af0c8bfb538ef580ce86fbe30f3427d"
+  },
+  "Regex": {
+    "Email": "^[a-zA-Z0-9._\\-]+@[a-zA-Z0-9.\\-]+\\.[a-zA-Z]{2,5}$",
+    "Domain": "^[a-z0-9.+-]+((.edu(.[a-z]{2})?)|(.ac.(ae|at|bd|be|bw|cd|cr|cy|fj|uk|in|id|ir|il|jp|ke|kr|pa|pg|ru|rw|rj|rs|sc|za|lk|tz|th|zm|zw)))$",
+    "Name": "[a-zA-Z,.'-]+( [a-zA-Z ,.'-]+)+$"
+  },
+  "Superuser": [
+    "zac.yu@pitt.edu",
+    "jingtaow@cs.pitt.edu"
+  ]
+}

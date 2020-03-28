@@ -1,0 +1,12 @@
+html, body {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+}
+main {
+  flex: 1 0 auto;
+}
+.mdl-mini-footer {
+  padding: 32px;
+}
+input:focus, input:active {
+  outline: none;
+}

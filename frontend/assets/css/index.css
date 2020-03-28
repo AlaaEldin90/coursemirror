@@ -1,0 +1,74 @@
+html, body {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+}
+main {
+  flex: 1 0 auto;
+}
+.mdl-mini-footer {
+  padding: 32px;
+}
+input:focus, input:active {
+  outline: none;
+}
+#index-grid {
+  max-width: 600px;
+  min-height: 400px;
+  margin-top: 32px;
+}
+.title {
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+.title .logo {
+  margin: auto;
+}
+.title .text h1 {
+  margin-bottom: 8px;
+}
+.title .text h4 {
+  margin-top: -16px;
+  margin-bottom: 32px;
+}
+.mdl-card {
+  padding: 16px;
+  margin-bottom: 32px;
+  transition: all ease-in-out .5s;
+}
+.mdl-card .mdl-textfield {
+  width: 100%;
+}
+.mdl-card button {
+  display: inline-block;
+}
+#login-fab-button {
+  margin: 24px 12px;
+}
+#register-fab-button {
+  margin: 12px;
+  margin-top: 128px;
+}
+#login-card {
+  left: 0;
+  opacity: 1;
+}
+#register-card {
+  display: none;
+}
+.login-out #login-card {
+  left: 600px;
+  opacity: 0;
+}
+.register-shown #register-card {
+  display: flex;
+  opacity: 0;
+  top: 0;
+  right: 600px;
+}
+.register-shown #login-card {
+  display: none;
+}
+.register-in #register-card {
+  right: 0;
+  opacity: 1;
+}

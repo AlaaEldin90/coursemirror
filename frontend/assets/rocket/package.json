@@ -1,0 +1,33 @@
+{
+   "name": "rocket-loader",
+   "version": "2.4.0",
+   "description": "An animated loader graphic module.",
+   "main": "index.html",
+   "keywords": [
+      "Rocket",
+      "Part",
+      "Module",
+      "Loader",
+      "Javascript",
+      "CSS"
+   ],
+   "author": "Chris Humboldt",
+   "license": "Apache-2.0",
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/chrishumboldt/Rocket-Loader.git"
+   },
+   "bugs": {
+      "url": "https://github.com/chrishumboldt/Rocket-Loader/issues"
+   },
+   "engines": {
+      "npm": "^3.0.0"
+   },
+   "dependencies": {
+      "rocket-tools": "^1.16.3"
+   },
+   "devDependencies": {
+      "rocket-demo": "^2.0.1",
+      "rocket-propel": "^3.1.1"
+   }
+}
