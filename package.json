@@ -16,7 +16,7 @@
     "body-parser": "^1.14.1",
     "cookies": "^0.5.1",
     "d3": "^5.9.2",
-    "express": "^4.13.3",
+    "express": "^4.17.3",
     "express-minify": "^0.1.6",
     "keygrip": "^1.0.1",
     "mailgun": "^0.5.0",
